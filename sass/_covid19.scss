@@ -1,0 +1,37 @@
+.grillapapa {
+    display: grid;
+    grid-template-areas: 
+    "covid covid" 
+    "img img " 
+    "txtup imgup"
+     "txtdown imgdown" ;
+  }
+  
+  .covidgrilla {
+    padding: 1em 1em 1em 1em;
+  }
+  .grillauno {
+    grid-area: covid;
+    width: 100%;
+  }
+  
+  .grillados {
+    grid-area: img;
+  }
+  
+  .grillatres {
+    grid-area: imgup;
+  }
+  
+  .grillacuatro {
+    grid-area: imgdown;
+  }
+  
+  .grillacinco {
+    grid-area: txtup;
+  }
+  
+  .grillaseis {
+    grid-area: txtdown;
+  }
+  

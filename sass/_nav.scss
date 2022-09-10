@@ -1,0 +1,40 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #000000;
+    width: 100%;
+    margin: auto;
+    word-spacing: 1em;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+    text-align: center;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+  nav ul li a a:hover {
+    background-color: rgb(170, 196, 206);
+  }
+  .ancho{
+    background-color: #092327;
+    margin: 0px;
+  }
+
+  .logggo{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    position: static;
+    background-color: #000000;
+}
+
+.logoimg{
+  background-color: #000000;
+  margin: 0%;
+}
