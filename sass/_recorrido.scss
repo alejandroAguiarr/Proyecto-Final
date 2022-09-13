@@ -76,7 +76,7 @@
   .recofotos{
     margin: 0,2em;
     width: 97%;
-    height: 97%;
+    height: 100%;
   } 
   
   .gridsrecorridos {
@@ -112,8 +112,37 @@
 .cardtxtr{
   font-family: 'Raleway', sans-serif;
   text-align: left;
+  width: 100%;
+  height: 17em;
 }
 .box_promo1{
   display: flex;
   flex-direction: row;
+}
+
+
+.btn{
+  border-radius: 0.03em;
+  padding: 0.70em 0.70em;
+  text-decoration: none;
+  text-shadow: 0 2px 0 rgba(255,255,255,0.3);
+  box-shadow: 0 2px 2px rgba(0,0,0,0.3); 
+ 
+}
+.btn-container {
+  color: rgb(0, 0, 0);
+  background-color: #58b6db; 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ 
+
+}
+
+.btn-green:active {
+  background-color: #27c8dd;
+}
+
+.btn-container:hover {
+  background-color: white;
 }
